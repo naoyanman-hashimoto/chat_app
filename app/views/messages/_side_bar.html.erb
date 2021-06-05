@@ -1,6 +1,7 @@
 <div class="side-bar-header">
   <div class="header_name">
-    <a href="#">ヤンヤンつけボー</a>
+    <%= link_to current_user.name, edit_user_path(current_user) %>
+    <%# <a href="#">ヤンヤンつけボー</a> %>
   </div>
   <div class="create_room">
     <a href="#">チャットを作成する</a>
