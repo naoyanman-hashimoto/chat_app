@@ -23,7 +23,7 @@
           <% end %>
           <%# user.params[:id]とか使いそう %>
         </select>
-        <input name="room[user_ids][]" type="hidden" value=<%= current_user %>>
+        <input name="room[user_ids][]" type="hidden" value=<%= current_user.id %>>
       </div>
     </div>
     <div class='chat-room-form__field'>
